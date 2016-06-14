@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAAB25B81D10921700AF3EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB25B71D10921700AF3EB2 /* AppDelegate.swift */; };
+		BAAB25BA1D10921700AF3EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB25B91D10921700AF3EB2 /* ViewController.swift */; };
+		BAAB25BD1D10921700AF3EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB25BB1D10921700AF3EB2 /* Main.storyboard */; };
+		BAAB25C01D10921700AF3EB2 /* leaf2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAAB25BE1D10921700AF3EB2 /* leaf2.xcdatamodeld */; };
+		BAAB25C21D10921700AF3EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAB25C11D10921700AF3EB2 /* Assets.xcassets */; };
+		BAAB25C51D10921700AF3EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB25C31D10921700AF3EB2 /* LaunchScreen.storyboard */; };
+		BAAB25D01D10921700AF3EB2 /* leaf2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB25CF1D10921700AF3EB2 /* leaf2Tests.swift */; };
+		BAAB25DB1D10921700AF3EB2 /* leaf2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB25DA1D10921700AF3EB2 /* leaf2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAAB25CC1D10921700AF3EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAB25AC1D10921700AF3EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAB25B31D10921700AF3EB2;
+			remoteInfo = leaf2;
+		};
+		BAAB25D71D10921700AF3EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAB25AC1D10921700AF3EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAB25B31D10921700AF3EB2;
+			remoteInfo = leaf2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAAB25B41D10921700AF3EB2 /* leaf2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leaf2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAB25B71D10921700AF3EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAAB25B91D10921700AF3EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAAB25BC1D10921700AF3EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAAB25BF1D10921700AF3EB2 /* leaf2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = leaf2.xcdatamodel; sourceTree = "<group>"; };
+		BAAB25C11D10921700AF3EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAAB25C41D10921700AF3EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAAB25C61D10921700AF3EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAB25CB1D10921700AF3EB2 /* leaf2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leaf2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAB25CF1D10921700AF3EB2 /* leaf2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaf2Tests.swift; sourceTree = "<group>"; };
+		BAAB25D11D10921700AF3EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAB25D61D10921700AF3EB2 /* leaf2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leaf2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAB25DA1D10921700AF3EB2 /* leaf2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaf2UITests.swift; sourceTree = "<group>"; };
+		BAAB25DC1D10921700AF3EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAB25B11D10921700AF3EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB25C81D10921700AF3EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB25D31D10921700AF3EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAB25AB1D10921700AF3EB2 = {
+			isa = PBXGroup;
+			children = (
+				BAAB25B61D10921700AF3EB2 /* leaf2 */,
+				BAAB25CE1D10921700AF3EB2 /* leaf2Tests */,
+				BAAB25D91D10921700AF3EB2 /* leaf2UITests */,
+				BAAB25B51D10921700AF3EB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAB25B51D10921700AF3EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB25B41D10921700AF3EB2 /* leaf2.app */,
+				BAAB25CB1D10921700AF3EB2 /* leaf2Tests.xctest */,
+				BAAB25D61D10921700AF3EB2 /* leaf2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAB25B61D10921700AF3EB2 /* leaf2 */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB25B71D10921700AF3EB2 /* AppDelegate.swift */,
+				BAAB25B91D10921700AF3EB2 /* ViewController.swift */,
+				BAAB25BB1D10921700AF3EB2 /* Main.storyboard */,
+				BAAB25C11D10921700AF3EB2 /* Assets.xcassets */,
+				BAAB25C31D10921700AF3EB2 /* LaunchScreen.storyboard */,
+				BAAB25C61D10921700AF3EB2 /* Info.plist */,
+				BAAB25BE1D10921700AF3EB2 /* leaf2.xcdatamodeld */,
+			);
+			path = leaf2;
+			sourceTree = "<group>";
+		};
+		BAAB25CE1D10921700AF3EB2 /* leaf2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB25CF1D10921700AF3EB2 /* leaf2Tests.swift */,
+				BAAB25D11D10921700AF3EB2 /* Info.plist */,
+			);
+			path = leaf2Tests;
+			sourceTree = "<group>";
+		};
+		BAAB25D91D10921700AF3EB2 /* leaf2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB25DA1D10921700AF3EB2 /* leaf2UITests.swift */,
+				BAAB25DC1D10921700AF3EB2 /* Info.plist */,
+			);
+			path = leaf2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAB25B31D10921700AF3EB2 /* leaf2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAB25DF1D10921700AF3EB2 /* Build configuration list for PBXNativeTarget "leaf2" */;
+			buildPhases = (
+				BAAB25B01D10921700AF3EB2 /* Sources */,
+				BAAB25B11D10921700AF3EB2 /* Frameworks */,
+				BAAB25B21D10921700AF3EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leaf2;
+			productName = leaf2;
+			productReference = BAAB25B41D10921700AF3EB2 /* leaf2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAAB25CA1D10921700AF3EB2 /* leaf2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAB25E21D10921700AF3EB2 /* Build configuration list for PBXNativeTarget "leaf2Tests" */;
+			buildPhases = (
+				BAAB25C71D10921700AF3EB2 /* Sources */,
+				BAAB25C81D10921700AF3EB2 /* Frameworks */,
+				BAAB25C91D10921700AF3EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAB25CD1D10921700AF3EB2 /* PBXTargetDependency */,
+			);
+			name = leaf2Tests;
+			productName = leaf2Tests;
+			productReference = BAAB25CB1D10921700AF3EB2 /* leaf2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAAB25D51D10921700AF3EB2 /* leaf2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAB25E51D10921700AF3EB2 /* Build configuration list for PBXNativeTarget "leaf2UITests" */;
+			buildPhases = (
+				BAAB25D21D10921700AF3EB2 /* Sources */,
+				BAAB25D31D10921700AF3EB2 /* Frameworks */,
+				BAAB25D41D10921700AF3EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAB25D81D10921700AF3EB2 /* PBXTargetDependency */,
+			);
+			name = leaf2UITests;
+			productName = leaf2UITests;
+			productReference = BAAB25D61D10921700AF3EB2 /* leaf2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAB25AC1D10921700AF3EB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Honghao Bi";
+				TargetAttributes = {
+					BAAB25B31D10921700AF3EB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BAAB25CA1D10921700AF3EB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BAAB25B31D10921700AF3EB2;
+					};
+					BAAB25D51D10921700AF3EB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BAAB25B31D10921700AF3EB2;
+					};
+				};
+			};
+			buildConfigurationList = BAAB25AF1D10921700AF3EB2 /* Build configuration list for PBXProject "leaf2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAAB25AB1D10921700AF3EB2;
+			productRefGroup = BAAB25B51D10921700AF3EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAB25B31D10921700AF3EB2 /* leaf2 */,
+				BAAB25CA1D10921700AF3EB2 /* leaf2Tests */,
+				BAAB25D51D10921700AF3EB2 /* leaf2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAB25B21D10921700AF3EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB25C51D10921700AF3EB2 /* LaunchScreen.storyboard in Resources */,
+				BAAB25C21D10921700AF3EB2 /* Assets.xcassets in Resources */,
+				BAAB25BD1D10921700AF3EB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB25C91D10921700AF3EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB25D41D10921700AF3EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAB25B01D10921700AF3EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB25BA1D10921700AF3EB2 /* ViewController.swift in Sources */,
+				BAAB25C01D10921700AF3EB2 /* leaf2.xcdatamodeld in Sources */,
+				BAAB25B81D10921700AF3EB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB25C71D10921700AF3EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB25D01D10921700AF3EB2 /* leaf2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB25D21D10921700AF3EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB25DB1D10921700AF3EB2 /* leaf2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAAB25CD1D10921700AF3EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAB25B31D10921700AF3EB2 /* leaf2 */;
+			targetProxy = BAAB25CC1D10921700AF3EB2 /* PBXContainerItemProxy */;
+		};
+		BAAB25D81D10921700AF3EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAB25B31D10921700AF3EB2 /* leaf2 */;
+			targetProxy = BAAB25D71D10921700AF3EB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAAB25BB1D10921700AF3EB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAB25BC1D10921700AF3EB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAAB25C31D10921700AF3EB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAB25C41D10921700AF3EB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAB25DD1D10921700AF3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAAB25DE1D10921700AF3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAB25E01D10921700AF3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leaf2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leaf.leaf2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAAB25E11D10921700AF3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leaf2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leaf.leaf2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAAB25E31D10921700AF3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leaf2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leaf.leaf2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leaf2.app/leaf2";
+			};
+			name = Debug;
+		};
+		BAAB25E41D10921700AF3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leaf2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leaf.leaf2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leaf2.app/leaf2";
+			};
+			name = Release;
+		};
+		BAAB25E61D10921700AF3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leaf2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leaf.leaf2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leaf2;
+			};
+			name = Debug;
+		};
+		BAAB25E71D10921700AF3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leaf2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leaf.leaf2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leaf2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAB25AF1D10921700AF3EB2 /* Build configuration list for PBXProject "leaf2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB25DD1D10921700AF3EB2 /* Debug */,
+				BAAB25DE1D10921700AF3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAB25DF1D10921700AF3EB2 /* Build configuration list for PBXNativeTarget "leaf2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB25E01D10921700AF3EB2 /* Debug */,
+				BAAB25E11D10921700AF3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAAB25E21D10921700AF3EB2 /* Build configuration list for PBXNativeTarget "leaf2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB25E31D10921700AF3EB2 /* Debug */,
+				BAAB25E41D10921700AF3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAAB25E51D10921700AF3EB2 /* Build configuration list for PBXNativeTarget "leaf2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB25E61D10921700AF3EB2 /* Debug */,
+				BAAB25E71D10921700AF3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAAB25BE1D10921700AF3EB2 /* leaf2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAAB25BF1D10921700AF3EB2 /* leaf2.xcdatamodel */,
+			);
+			currentVersion = BAAB25BF1D10921700AF3EB2 /* leaf2.xcdatamodel */;
+			path = leaf2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAAB25AC1D10921700AF3EB2 /* Project object */;
+}
